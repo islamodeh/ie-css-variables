@@ -2291,6 +2291,11 @@ css-tree@^1.1.2:
     mdn-data "2.0.14"
     source-map "^0.6.1"
 
+css-vars-ponyfill@^2.4.2:
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/css-vars-ponyfill/-/css-vars-ponyfill-2.4.2.tgz#2ae8ea0ea5dfeb0afb5ac8f5c3b4247615a5ff69"
+  integrity sha512-kp8Ufs7jJDoaSym1hw/deawtakLJJTAQMB4ZgkdyOwCTJHqEClbpXI910ovQU4Guxt37EcdRiqppG9ihFyCjPQ==
+
 css-what@^3.2.1:
   version "3.4.2"
   resolved "https://registry.yarnpkg.com/css-what/-/css-what-3.4.2.tgz#ea7026fcb01777edbde52124e21f327e7ae950e4"
