@@ -7,11 +7,13 @@ require("@rails/ujs").start()
 require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
+
+// https://jhildenbiddle.github.io/css-vars-ponyfill/#/
 import cssVars from 'css-vars-ponyfill'
 
 document.addEventListener("DOMContentLoaded", function(event) {
 	cssVars({
 		rootElement: document,
-		onlyLegacy: false
+		onlyLegacy: true 
 	});
 });
