@@ -7,6 +7,20 @@
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <style>
+      :root {
+          --primary: red;
+      }
+      .text-center {
+        text-align: center;
+      }
+      .text-primary {
+        color: var(--primary);
+      }
+      .bg-primary {
+        background-color: var(--primary);
+      }
+    </style>
   </head>
 
   <body>
